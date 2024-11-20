@@ -1,0 +1,8 @@
+2024-11-20 08:19:21 : Data extraction complete. Initiating Transformation process
+2024-11-20 08:19:22 : Data transformation complete. Initiating Loading process
+2024-11-20 08:19:22 : Data saved to CSV file
+2024-11-20 08:19:22 : Data loaded to Database as a table, Executing queries
+2024-11-20 08:19:22 : Executed query: PRAGMA table_info(Largest_banks)
+2024-11-20 08:19:22 : Executed query: SELECT * FROM Largest_banks
+2024-11-20 08:19:22 : Executed query: SELECT AVG(MC_GBP_Billion) FROM Largest_banks
+2024-11-20 08:19:22 : Executed query: SELECT `Bank Name` FROM Largest_banks LIMIT 5
